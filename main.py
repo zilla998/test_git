@@ -1,3 +1,5 @@
+import time
+
 
 def main():
 	x = True
@@ -7,3 +9,9 @@ def main():
 		print("NO")
 
 main()
+
+
+def other():
+	while True:
+		print("Git")
+		time.sleep(5)
