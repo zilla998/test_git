@@ -1,17 +1,13 @@
 import time
 
+x = 0
+y = 0
 
-def main():
-	x = True
-	if x:
-		print("Hello world!")
-	else:
-		print("NO")
+while True:
+    print(x, y)
+    x += 1
+    y += 1
+    time.sleep(1)
 
-main()
-
-
-def other():
-	while True:
-		print("Git")
-		time.sleep(5)
+    if x and y == 25:
+        break
